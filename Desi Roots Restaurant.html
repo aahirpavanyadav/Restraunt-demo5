@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Desi Roots – Home-style Indian Restaurant</title>
+<meta name="description" content="Desi Roots serves biryani, thalis, tiffins and regional curries. View the menu, order on WhatsApp, find us on the map.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Desi Roots","servesCuisine":"Indian","telephone":"+91 00000 00000","address":{"@type":"PostalAddress","streetAddress":"Your street address","addressLocality":"Your city"}}</script>
+<style>
+:root{--bg:#fbf3e4;--bg2:#f3e5c8;--ink:#3b2416;--muted:#6e5645;--accent:#b4472a;--accent-ink:#fff;--gold:#e0a21b;--leaf:#2f6b3f;--line:#dcc79f;--card:#fff9ee;
+--serif:"Fraunces",Georgia,serif;--sans:"Nunito Sans",system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#241710;--bg2:#2f1f16;--ink:#f6e8d0;--muted:#cdb89a;--accent:#d9694a;--accent-ink:#241710;--gold:#e6b64a;--leaf:#7fb58a;--line:#4a3426;--card:#2b1c13;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#241710;--bg2:#2f1f16;--ink:#f6e8d0;--muted:#cdb89a;--accent:#d9694a;--accent-ink:#241710;--gold:#e6b64a;--leaf:#7fb58a;--line:#4a3426;--card:#2b1c13;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--sans);transition:background .3s,color .3s;overflow-x:hidden}
+img,svg{max-width:100%}
+h1,h2,h3{font-family:var(--serif);line-height:1.15;margin:0 0 .5em}
+h1{font-size:clamp(2.4rem,8vw,4.6rem);font-weight:800}
+h2{font-size:clamp(1.8rem,5vw,2.8rem);font-weight:800}
+h3{font-size:1.2rem;font-weight:600}
+p{margin:0 0 1em;max-width:62ch}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+section{padding:4rem 0}
+.border{height:14px;background:repeating-linear-gradient(135deg,var(--accent) 0 8px,transparent 8px 12px,var(--gold) 12px 20px,transparent 20px 24px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.6rem 1.4rem;border-radius:999px;font:700 1rem var(--sans);text-decoration:none;border:2px solid var(--accent);background:var(--accent);color:var(--accent-ink);cursor:pointer;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn.wa{background:var(--leaf);border-color:var(--leaf);color:#fff}
+:root[data-theme="dark"] .btn.wa{color:#10200f}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:2px solid var(--line)}
+.nav{display:flex;align-items:center;gap:1rem;min-height:68px}
+.logo{font:800 1.5rem var(--serif);text-decoration:none;color:var(--accent);margin-right:auto}
+.links{display:none;gap:1.2rem;align-items:center}
+.links a{text-decoration:none;font-weight:600}
+.links a:hover{color:var(--accent)}
+.icon-btn{width:48px;height:48px;border-radius:50%;border:2px solid var(--line);background:var(--card);color:var(--ink);font-size:1.2rem;cursor:pointer}
+.menu-btn{display:inline-block}
+.links.open{display:flex;flex-direction:column;align-items:stretch;position:absolute;left:0;right:0;top:100%;background:var(--bg);padding:1rem 1.25rem 1.5rem;border-bottom:2px solid var(--line)}
+.links.open a{padding:.6rem 0}
+@media(min-width:900px){.links{display:flex}.menu-btn{display:none}}
+.hero{padding:2.5rem 0 4rem;background:radial-gradient(circle at 85% 20%,var(--bg2),transparent 60%)}
+.hero .wrap{display:grid;gap:2rem;align-items:center}
+.hero p{font-size:1.2rem;color:var(--muted)}
+.cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.5rem}
+.plate{width:min(440px,100%);margin-inline:auto}
+@media(min-width:860px){.hero .wrap{grid-template-columns:1.1fr .9fr}}
+.story .wrap{display:grid;gap:2rem}
+.story aside{background:var(--bg2);border-left:6px solid var(--gold);padding:1.5rem;border-radius:4px}
+@media(min-width:860px){.story .wrap{grid-template-columns:1.3fr 1fr}}
+.spec{background:var(--bg2)}
+.spec ul{list-style:none;margin:0;padding:0;display:grid;gap:1.5rem 2rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.spec li{border-top:3px solid var(--accent);padding-top:.8rem}
+.spec li:nth-child(even){border-color:var(--leaf)}
+.tabs{display:flex;gap:.5rem;overflow-x:auto;padding:.3rem 0 1rem;scrollbar-width:thin}
+.tab{flex:none;min-height:44px;padding:.4rem 1.1rem;border-radius:999px;border:2px solid var(--line);background:transparent;color:var(--ink);font:700 .95rem var(--sans);cursor:pointer}
+.tab[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.dishes{display:grid;gap:1.4rem;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.dish{display:flex;flex-direction:column;gap:.4rem}
+.dish .pic{aspect-ratio:4/3;border-radius:14px;display:grid;place-items:center;font-size:3.4rem;background:var(--bg2);border:2px solid var(--line)}
+.dish .row{display:flex;justify-content:space-between;gap:.5rem;align-items:baseline}
+.dish h3{margin:0}
+.price{font-weight:800;color:var(--accent);white-space:nowrap}
+.dish p{margin:0;font-size:.95rem;color:var(--muted)}
+.veg,.nonveg{display:inline-block;width:16px;height:16px;border:2px solid;border-radius:3px;position:relative;margin-right:.4rem;vertical-align:-2px}
+.veg{color:#2a8a3e}.nonveg{color:#b3261e}
+.veg::after,.nonveg::after{content:"";position:absolute;inset:3px;border-radius:50%;background:currentColor}
+.legend{font-size:.9rem;color:var(--muted)}
+.today{background:var(--leaf);color:#fff;border-radius:20px;padding:2rem;display:grid;gap:1rem}
+:root[data-theme="dark"] .today{background:#1f3a27}
+.today h2{margin-bottom:.2rem}
+.today ul{list-style:none;padding:0;margin:0;display:grid;gap:.8rem;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.today li{border-top:2px dashed rgba(255,255,255,.5);padding-top:.7rem}
+.today small{display:block;opacity:.85}
+.gal{display:grid;gap:.7rem;grid-template-columns:repeat(2,1fr)}
+@media(min-width:760px){.gal{grid-template-columns:repeat(4,1fr)}}
+.gal button{aspect-ratio:1;border:2px solid var(--line);border-radius:12px;background:var(--bg2);font-size:2.8rem;cursor:pointer;color:var(--ink);display:grid;place-items:center;padding:.4rem}
+.gal button:nth-child(3n){background:var(--card)}
+.gal span{font:600 .8rem var(--sans);display:block}
+dialog{border:0;border-radius:16px;padding:2rem;background:var(--card);color:var(--ink);max-width:min(440px,92vw);text-align:center}
+dialog::backdrop{background:rgba(20,10,5,.75)}
+dialog .big{font-size:6rem}
+.rev{background:var(--bg2);border:2px dashed var(--line);border-radius:14px;padding:1.5rem}
+form{display:grid;gap:.8rem;max-width:520px}
+label{font-weight:700;font-size:.95rem}
+input,textarea,select{width:100%;min-height:48px;padding:.6rem .8rem;border-radius:10px;border:2px solid var(--line);background:var(--card);color:var(--ink);font:inherit}
+.contact .wrap{display:grid;gap:2.5rem}
+@media(min-width:860px){.contact .wrap{grid-template-columns:1fr 1fr}}
+.hours{list-style:none;padding:0;margin:0 0 1.2rem}
+.hours li{display:flex;justify-content:space-between;max-width:320px;border-bottom:1px dotted var(--line);padding:.3rem 0}
+footer{background:var(--ink);color:var(--bg);padding:2.5rem 0 3rem}
+footer a{color:var(--bg)}
+footer .wrap{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+footer .logo{color:var(--gold)}
+.sr{position:absolute;left:-9999px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="sr" href="#menu">Skip to menu</a>
+<header>
+<div class="wrap nav">
+<a class="logo" href="#home">Desi Roots</a>
+<nav class="links" id="links" aria-label="Main">
+<a href="#home">Home</a><a href="#story">Our Story</a><a href="#menu">Food Menu</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+<a class="btn wa" data-wa href="#">Order on WhatsApp</a>
+</nav>
+<button class="icon-btn" id="theme" aria-label="Switch theme">◐</button>
+<button class="icon-btn menu-btn" id="mb" aria-expanded="false" aria-controls="links" aria-label="Open menu">☰</button>
+</div>
+<div class="border" aria-hidden="true"></div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="wrap">
+<div>
+<h1>Good food. Great traditions.</h1>
+<p>Biryani, thalis, crisp dosas and slow-cooked curries, made the way families cook them at home. Come in for a meal, or send us your order on WhatsApp.</p>
+<div class="cta"><a class="btn" href="#menu">Explore menu</a><a class="btn wa" data-wa href="#">Order now</a></div>
+</div>
+<svg class="plate" viewBox="0 0 400 400" role="img" aria-label="Illustration of a thali with rice, curries and roti">
+<circle cx="200" cy="200" r="190" fill="var(--gold)"/><circle cx="200" cy="200" r="172" fill="var(--card)" stroke="var(--accent)" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round"/>
+<circle cx="200" cy="200" r="70" fill="#f7efd9" stroke="var(--line)" stroke-width="3"/><g fill="#fff"><circle cx="175" cy="185" r="4"/><circle cx="205" cy="170" r="4"/><circle cx="225" cy="205" r="4"/><circle cx="190" cy="220" r="4"/></g>
+<circle cx="200" cy="72" r="38" fill="#b4472a"/><circle cx="318" cy="150" r="38" fill="#e0a21b"/><circle cx="318" cy="260" r="38" fill="#2f6b3f"/><circle cx="200" cy="330" r="38" fill="#8a4b2a"/><circle cx="82" cy="260" r="38" fill="#c9702a"/><circle cx="82" cy="150" r="38" fill="#a3302a"/>
+<g fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="3"><circle cx="200" cy="72" r="26"/><circle cx="318" cy="150" r="26"/><circle cx="318" cy="260" r="26"/><circle cx="200" cy="330" r="26"/><circle cx="82" cy="260" r="26"/><circle cx="82" cy="150" r="26"/></g>
+</svg>
+</div>
+</section>
+
+<section class="story" id="story">
+<div class="wrap">
+<div>
+<h2>Our story</h2>
+<p>Desi Roots is a neighbourhood restaurant built around everyday Indian meals. Our menu draws on South Indian tiffins, Hyderabadi-style biryani and home-style regional curries.</p>
+<p>We cook in small batches, grind our own masalas and keep the menu simple, so you get honest food at a fair price. <em>[Owner: add your own founding story and family details here.]</em></p>
+</div>
+<aside><h3>How we cook</h3><p>Fresh ingredients, slow cooking, and spice levels you can ask us to adjust.</p></aside>
+</div>
+</section>
+
+<section class="spec">
+<div class="wrap">
+<h2>Our specialities</h2>
+<ul>
+<li><h3>Dum biryani</h3><p>Rice and masala sealed and cooked slow.</p></li>
+<li><h3>Traditional thalis</h3><p>A full plate of rice, curries, roti and sides.</p></li>
+<li><h3>South Indian meals</h3><p>Sambar, rasam, poriyal and curd rice.</p></li>
+<li><h3>Regional curries</h3><p>Dal, paneer and chicken, home-style.</p></li>
+<li><h3>Popular snacks</h3><p>Samosa, bajji and pakoda, fried to order.</p></li>
+</ul>
+</div>
+</section>
+
+<section id="menu">
+<div class="wrap">
+<h2>Food menu</h2>
+<p class="legend"><span class="veg"></span>Vegetarian &nbsp; <span class="nonveg"></span>Non-vegetarian</p>
+<div class="tabs" id="tabs" role="group" aria-label="Menu categories"></div>
+<div class="dishes" id="dishes" aria-live="polite"></div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="today">
+<div><h2>Today’s specials</h2><p style="margin:0">Ask us what is ready right now.</p></div>
+<ul id="specials"></ul>
+</div>
+</div>
+</section>
+
+<section id="gallery">
+<div class="wrap">
+<h2>Gallery</h2>
+<p>Tap a tile to enlarge. Replace these with your own photos of dishes, the kitchen and the dining room.</p>
+<div class="gal" id="gal"></div>
+</div>
+</section>
+
+<section class="spec">
+<div class="wrap">
+<h2>What our guests say</h2>
+<div class="rev"><p style="margin:0">Real reviews will appear here. Add your guests’ own words (with their permission) in the <code>REVIEWS</code> list at the top of the script.</p></div>
+<div id="reviews"></div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="wrap">
+<div>
+<h2>Visit or order</h2>
+<p id="addr"></p>
+<ul class="hours" id="hours"></ul>
+<div class="cta"><a class="btn" id="call" href="#">Call us</a><a class="btn ghost" id="dir" target="_blank" rel="noopener" href="#">Get directions</a></div>
+</div>
+<form id="enq">
+<h3>Send an order enquiry on WhatsApp</h3>
+<div><label for="n">Your name</label><input id="n" required autocomplete="name"></div>
+<div><label for="o">What would you like?</label><textarea id="o" rows="4" placeholder="e.g. 2 chicken biryani, 1 veg thali" required></textarea></div>
+<button class="btn wa" type="submit">Open WhatsApp</button>
+<p style="font-size:.9rem;color:var(--muted)">This opens WhatsApp with your message ready. Your order is only confirmed when the restaurant replies.</p>
+</form>
+</div>
+</section>
+</main>
+
+<div class="border" aria-hidden="true"></div>
+<footer>
+<div class="wrap">
+<div><a class="logo" href="#home">Desi Roots</a><p>Good food. Great traditions.</p></div>
+<div><h3>Explore</h3><a href="#story">Our Story</a><br><a href="#menu">Food Menu</a><br><a href="#gallery">Gallery</a><br><a href="#contact">Contact</a></div>
+<div><h3>Contact</h3><p id="fa"></p><a id="fc" href="#"></a><p><a href="#">Instagram</a> · <a href="#">Facebook</a></p></div>
+<div><h3>Hours</h3><ul class="hours" id="fh"></ul></div>
+</div>
+</footer>
+
+<dialog id="lb"><div class="big" id="lbi"></div><p id="lbt"></p><form method="dialog"><button class="btn">Close</button></form></dialog>
+
+<script>
+/* ===== EDIT THESE ===== */
+const CONFIG={phone:"+910000000000",whatsapp:"910000000000",address:"Your street address, Your city, PIN",
+hours:[["Mon–Fri","8:00 am – 10:00 pm"],["Sat–Sun","8:00 am – 11:00 pm"]]};
+const MENU=[
+{c:"Tiffins",n:"Masala Dosa",d:"Crisp dosa with spiced potato, chutney and sambar.",p:80,v:1,e:"🥞"},
+{c:"Tiffins",n:"Idli Vada",d:"Two idlis and a vada with sambar and chutneys.",p:60,v:1,e:"⚪"},
+{c:"Starters",n:"Chicken 65",d:"Spicy fried chicken with curry leaves.",p:180,v:0,e:"🍗"},
+{c:"Starters",n:"Paneer Tikka",d:"Marinated paneer grilled with onions.",p:170,v:1,e:"🧀"},
+{c:"Meals",n:"Veg Thali",d:"Rice, roti, two curries, dal, curd and sweet.",p:140,v:1,e:"🍛"},
+{c:"Meals",n:"South Indian Meals",d:"Rice with sambar, rasam, poriyal, curd and papad.",p:130,v:1,e:"🍽️"},
+{c:"Biryani",n:"Chicken Dum Biryani",d:"Slow-cooked basmati with spiced chicken and raita.",p:220,v:0,e:"🍚"},
+{c:"Biryani",n:"Veg Biryani",d:"Fragrant rice with vegetables and whole spices.",p:170,v:1,e:"🥘"},
+{c:"Curries",n:"Dal Tadka",d:"Yellow lentils tempered with garlic and cumin.",p:120,v:1,e:"🥣"},
+{c:"Curries",n:"Butter Chicken",d:"Tomato-cream gravy with tender chicken.",p:210,v:0,e:"🍲"},
+{c:"Snacks",n:"Samosa (2 pcs)",d:"Crisp pastry with spiced potato and peas.",p:40,v:1,e:"🔺"},
+{c:"Drinks & Sweets",n:"Masala Chai",d:"Milk tea with ginger and cardamom.",p:20,v:1,e:"☕"},
+{c:"Drinks & Sweets",n:"Gulab Jamun (2 pcs)",d:"Soft milk dumplings in sugar syrup.",p:50,v:1,e:"🟤"}];
+const SPECIALS=[{n:"Special of the day",d:"Add today’s dish here."},{n:"Thali of the day",d:"Add today’s thali here."}];
+const GALLERY=[["🍛","Traditional thali"],["🍚","Biryani in the pot"],["🔥","Tandoor and kitchen"],["🪑","Dining room"],["👨‍👩‍👧","Family table"],["🥞","Fresh dosa"],["🍲","Curry of the day"],["🥘","Plated and ready"]];
+const REVIEWS=[]; /* [{name:"Anita",text:"..."}] */
+/* ====================== */
+const $=s=>document.querySelector(s);
+const rupee=n=>"₹"+n;
+const waURL=t=>"https://wa.me/"+CONFIG.whatsapp+"?text="+encodeURIComponent(t);
+// theme
+const root=document.documentElement;
+function setTheme(t){root.dataset.theme=t;try{localStorage.setItem("theme",t)}catch(e){}}
+let saved=null;try{saved=localStorage.getItem("theme")}catch(e){}
+root.dataset.theme=saved||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");
+$("#theme").onclick=()=>setTheme(root.dataset.theme==="dark"?"light":"dark");
+// nav
+const mb=$("#mb"),links=$("#links");
+mb.onclick=()=>{const o=links.classList.toggle("open");mb.setAttribute("aria-expanded",o)};
+links.addEventListener("click",e=>{if(e.target.closest("a"))links.classList.remove("open")});
+// menu
+const cats=["All",...new Set(MENU.map(m=>m.c))];let cur="All";
+function drawMenu(){
+$("#tabs").innerHTML=cats.map(c=>`<button class="tab" aria-pressed="${c===cur}" data-c="${c}">${c}</button>`).join("");
+$("#dishes").innerHTML=MENU.filter(m=>cur==="All"||m.c===cur).map(m=>`<article class="dish"><div class="pic" role="img" aria-label="${m.n}">${m.e}</div><div class="row"><h3><span class="${m.v?"veg":"nonveg"}" title="${m.v?"Vegetarian":"Non-vegetarian"}"></span>${m.n}</h3><span class="price">${rupee(m.p)}</span></div><p>${m.d}</p></article>`).join("");}
+$("#tabs").onclick=e=>{const b=e.target.closest(".tab");if(b){cur=b.dataset.c;drawMenu()}};
+drawMenu();
+$("#specials").innerHTML=SPECIALS.map(s=>`<li><strong>${s.n}</strong><small>${s.d}</small></li>`).join("");
+// gallery
+$("#gal").innerHTML=GALLERY.map((g,i)=>`<button data-i="${i}" aria-label="Open: ${g[1]}">${g[0]}<span>${g[1]}</span></button>`).join("");
+const lb=$("#lb");
+$("#gal").onclick=e=>{const b=e.target.closest("button");if(!b)return;const g=GALLERY[b.dataset.i];$("#lbi").textContent=g[0];$("#lbt").textContent=g[1];lb.showModal()};
+lb.addEventListener("click",e=>{if(e.target===lb)lb.close()});
+// reviews
+$("#reviews").innerHTML=REVIEWS.map(r=>`<blockquote><p>${r.text}</p><footer style="background:none;padding:0;color:inherit">– ${r.name}</footer></blockquote>`).join("");
+// contact
+const hrs=CONFIG.hours.map(h=>`<li><span>${h[0]}</span><span>${h[1]}</span></li>`).join("");
+$("#hours").innerHTML=hrs;$("#fh").innerHTML=hrs;
+$("#addr").textContent=CONFIG.address;$("#fa").textContent=CONFIG.address;
+$("#call").href="tel:"+CONFIG.phone;$("#fc").href="tel:"+CONFIG.phone;$("#fc").textContent=CONFIG.phone;
+$("#dir").href="https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(CONFIG.address);
+document.querySelectorAll("[data-wa]").forEach(a=>{a.href=waURL("Hello Desi Roots, I would like to place an order enquiry.");a.target="_blank";a.rel="noopener"});
+$("#enq").onsubmit=e=>{e.preventDefault();window.open(waURL("Hello Desi Roots, I am "+$("#n").value+". I would like to order: "+$("#o").value),"_blank","noopener")};
+</script>
+</body>
+</html>
