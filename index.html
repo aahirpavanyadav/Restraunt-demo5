@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Desi Roots – Home-style Indian Restaurant</title>
+<meta name="description" content="Desi Roots serves biryani, thalis, tiffins and regional curries. View the menu, order on WhatsApp, find us on the map.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Desi Roots","servesCuisine":"Indian","telephone":"+91 00000 00000","address":{"@type":"PostalAddress","streetAddress":"Your street address","addressLocality":"Your city"}}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="sr" href="#menu">Skip to menu</a>
+<header>
+<div class="wrap nav">
+<a class="logo" href="#home">Desi Roots</a>
+<nav class="links" id="links" aria-label="Main">
+<a href="#home">Home</a><a href="#story">Our Story</a><a href="#menu">Food Menu</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+<a class="btn wa" data-wa href="#">Order on WhatsApp</a>
+</nav>
+<button class="icon-btn" id="theme" aria-label="Switch theme">◐</button>
+<button class="icon-btn menu-btn" id="mb" aria-expanded="false" aria-controls="links" aria-label="Open menu">☰</button>
+</div>
+<div class="border" aria-hidden="true"></div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="wrap">
+<div>
+<h1>Good food. Great traditions.</h1>
+<p>Biryani, thalis, crisp dosas and slow-cooked curries, made the way families cook them at home. Come in for a meal, or send us your order on WhatsApp.</p>
+<div class="cta"><a class="btn" href="#menu">Explore menu</a><a class="btn wa" data-wa href="#">Order now</a></div>
+</div>
+<svg class="plate" viewBox="0 0 400 400" role="img" aria-label="Illustration of a thali with rice, curries and roti">
+<circle cx="200" cy="200" r="190" fill="var(--gold)"/><circle cx="200" cy="200" r="172" fill="var(--card)" stroke="var(--accent)" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round"/>
+<circle cx="200" cy="200" r="70" fill="#f7efd9" stroke="var(--line)" stroke-width="3"/><g fill="#fff"><circle cx="175" cy="185" r="4"/><circle cx="205" cy="170" r="4"/><circle cx="225" cy="205" r="4"/><circle cx="190" cy="220" r="4"/></g>
+<circle cx="200" cy="72" r="38" fill="#b4472a"/><circle cx="318" cy="150" r="38" fill="#e0a21b"/><circle cx="318" cy="260" r="38" fill="#2f6b3f"/><circle cx="200" cy="330" r="38" fill="#8a4b2a"/><circle cx="82" cy="260" r="38" fill="#c9702a"/><circle cx="82" cy="150" r="38" fill="#a3302a"/>
+<g fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="3"><circle cx="200" cy="72" r="26"/><circle cx="318" cy="150" r="26"/><circle cx="318" cy="260" r="26"/><circle cx="200" cy="330" r="26"/><circle cx="82" cy="260" r="26"/><circle cx="82" cy="150" r="26"/></g>
+</svg>
+</div>
+</section>
+
+<section class="story" id="story">
+<div class="wrap">
+<div>
+<h2>Our story</h2>
+<p>Desi Roots is a neighbourhood restaurant built around everyday Indian meals. Our menu draws on South Indian tiffins, Hyderabadi-style biryani and home-style regional curries.</p>
+<p>We cook in small batches, grind our own masalas and keep the menu simple, so you get honest food at a fair price. <em>[Owner: add your own founding story and family details here.]</em></p>
+</div>
+<aside><h3>How we cook</h3><p>Fresh ingredients, slow cooking, and spice levels you can ask us to adjust.</p></aside>
+</div>
+</section>
+
+<section class="spec">
+<div class="wrap">
+<h2>Our specialities</h2>
+<ul>
+<li><h3>Dum biryani</h3><p>Rice and masala sealed and cooked slow.</p></li>
+<li><h3>Traditional thalis</h3><p>A full plate of rice, curries, roti and sides.</p></li>
+<li><h3>South Indian meals</h3><p>Sambar, rasam, poriyal and curd rice.</p></li>
+<li><h3>Regional curries</h3><p>Dal, paneer and chicken, home-style.</p></li>
+<li><h3>Popular snacks</h3><p>Samosa, bajji and pakoda, fried to order.</p></li>
+</ul>
+</div>
+</section>
+
+<section id="menu">
+<div class="wrap">
+<h2>Food menu</h2>
+<p class="legend"><span class="veg"></span>Vegetarian &nbsp; <span class="nonveg"></span>Non-vegetarian</p>
+<div class="tabs" id="tabs" role="group" aria-label="Menu categories"></div>
+<div class="dishes" id="dishes" aria-live="polite"></div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="today">
+<div><h2>Today’s specials</h2><p style="margin:0">Ask us what is ready right now.</p></div>
+<ul id="specials"></ul>
+</div>
+</div>
+</section>
+
+<section id="gallery">
+<div class="wrap">
+<h2>Gallery</h2>
+<p>Tap a tile to enlarge. Replace these with your own photos of dishes, the kitchen and the dining room.</p>
+<div class="gal" id="gal"></div>
+</div>
+</section>
+
+<section class="spec">
+<div class="wrap">
+<h2>What our guests say</h2>
+<div class="rev"><p style="margin:0">Real reviews will appear here. Add your guests’ own words (with their permission) in the <code>REVIEWS</code> list at the top of the script.</p></div>
+<div id="reviews"></div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="wrap">
+<div>
+<h2>Visit or order</h2>
+<p id="addr"></p>
+<ul class="hours" id="hours"></ul>
+<div class="cta"><a class="btn" id="call" href="#">Call us</a><a class="btn ghost" id="dir" target="_blank" rel="noopener" href="#">Get directions</a></div>
+</div>
+<form id="enq">
+<h3>Send an order enquiry on WhatsApp</h3>
+<div><label for="n">Your name</label><input id="n" required autocomplete="name"></div>
+<div><label for="o">What would you like?</label><textarea id="o" rows="4" placeholder="e.g. 2 chicken biryani, 1 veg thali" required></textarea></div>
+<button class="btn wa" type="submit">Open WhatsApp</button>
+<p style="font-size:.9rem;color:var(--muted)">This opens WhatsApp with your message ready. Your order is only confirmed when the restaurant replies.</p>
+</form>
+</div>
+</section>
+</main>
+
+<div class="border" aria-hidden="true"></div>
+<footer>
+<div class="wrap">
+<div><a class="logo" href="#home">Desi Roots</a><p>Good food. Great traditions.</p></div>
+<div><h3>Explore</h3><a href="#story">Our Story</a><br><a href="#menu">Food Menu</a><br><a href="#gallery">Gallery</a><br><a href="#contact">Contact</a></div>
+<div><h3>Contact</h3><p id="fa"></p><a id="fc" href="#"></a><p><a href="#">Instagram</a> · <a href="#">Facebook</a></p></div>
+<div><h3>Hours</h3><ul class="hours" id="fh"></ul></div>
+</div>
+</footer>
+
+<dialog id="lb"><div class="big" id="lbi"></div><p id="lbt"></p><form method="dialog"><button class="btn">Close</button></form></dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
